@@ -1,0 +1,82 @@
+* {
+    padding: 5px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: black;
+    background-image: url(img/1.jpg);
+    background: cover;
+    position: relative;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    cursor: pointer;
+    border-width: 5%;
+    transition: 1000ms ease;
+}
+.logo span {
+    color: rgb(25, 25, 177);
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+ul li a {
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 15%;
+    font-size: .9rem;
+    gap: 30px;
+    
+    
+}
+a:hover {
+    color: rgb(25, 25, 177);
+    transition: 1000ms ease;
+    
+}
+.welmsg{
+    padding: 40px 30px;
+    border: 10px;
+}
+.wel{
+    color: white;
+    padding-bottom: 50px;
+    font-size: 40px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px blue;
+}
+.msg {
+    line-height: 1.5em;
+    border-style: none;
+    padding: 40px;
+    width: 40%;
+
+}
+.btn {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10%;
+    padding: 10px 20px;
+    border: solid;
+    transition: 0.3s ease;
+}
+.btn:hover {
+    background-color: #380988;
+    color: white;
+    transform: scale(1.1);
+}
